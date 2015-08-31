@@ -1,33 +1,34 @@
 {
-  "name": "sql-display",
-  "title": "Brackets MySQL simple table show",
-  "description": "A Brackets extension who show entries of MySQL tables",
-  "keywords": [
-    "Database",
-    "MySQL"
-  ],
-  "version": "0.0.1",
-  "license": "Open-source",
-  "homepage": "",
-  "author": {
-    "name": "miton",
-    "email": "contact@rcoll.fr",
-    "url": "http://remi.rcdinfo.fr"
-  },
-  "engines": {
-    "brackets": ">=1.3.0"
-  },
-  "dependencies": {
-    "mysql": "^2.8.0"
-  },
-  "devDependencies": {
-    "coffee-script": "^1.9.3",
-    "gulp": "^3.9.0",
-    "gulp-coffee": "^2.3.1",
-    "gulp-jsmin": "^0.1.5",
-    "gulp-less": "^3.0.3",
-    "gulp-load-plugins": "^0.10.0",
-    "gulp-plumber": "^1.0.1",
-    "gutil": "^1.6.4"
-  }
+    "name": "sql-display",
+    "title": "Brackets MySQL simple table show",
+    "description": "A Brackets extension who show entries of MySQL tables",
+    "keywords": [
+        "Database",
+        "MySQL"
+    ],
+    "version": "0.0.11",
+    "license": "Open-source",
+    "homepage": "https://github.com/miton18/sql-display",
+    "repository": "miton18/sql-display",
+    "author": {
+        "name": "miton",
+        "email": "contact@rcoll.fr",
+        "url": "http://remi.rcdinfo.fr"
+    },
+    "engines": {
+        "brackets": ">=1.3.0"
+    },
+    "dependencies": {
+        "mysql": "^2.8.0"
+    },
+    "devDependencies": {
+        "coffee-script": "^1.9.3",
+        "gulp": "^3.9.0",
+        "gulp-coffee": "^2.3.1",
+        "gulp-jsmin": "^0.1.5",
+        "gulp-less": "^3.0.3",
+        "gulp-load-plugins": "^0.10.0",
+        "gulp-plumber": "^1.0.1",
+        "gutil": "^1.6.4"
+    }
 }
